@@ -31,11 +31,15 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-	background: #21272f;
+	background-image: url(bg.svg);
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 100%;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Work Sans', sans-serif;
 }
 
 a:link,
@@ -179,14 +183,14 @@ p {
 
 .intro h2 {
 	margin-bottom: 20px;
-	font-size: 28px;
-	font-weight: 200;
+	font-size: 60px;
+	font-weight: 600;
 	line-height: 1.2;
 }
 
 @media only screen and (min-width: 580px) {
 	.intro h2 {
-		font-size: 30px;
+		font-size: 32px;
 	}
 }
 
